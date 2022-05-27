@@ -1,0 +1,161 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################# NAVIGATION STYLES #################  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ###################################################### */
+/* ###################### DESKTOP ######################  */
+/* ###################################################### */
+
+#mainNavigation {
+  background: var(--bg-primary--color);
+  z-index: 1000;
+}
+
+.nav-wrapper {
+  padding: 1em 0;
+  width: 100%;
+  /* gap: var(--regular-gap); */
+}
+
+.nav-header .logo {
+  font-family: var(--logo-font);
+  color: var(--secondary-color);
+  font-size: 3em;
+  margin: var(--no-margin);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.links {
+  width: 100%;
+}
+
+.primary-nav {
+  width: 100%;
+  gap: var(--regular-gap);
+}
+
+.secondary-nav {
+  width: 85%;
+}
+
+.prim-link a {
+  font-family: var(--headings-font);
+  color: var(--light-text);
+  font-size: var(--small-size);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.prim-link a:hover {
+  color: var(--secondary-color);
+  transition: var(--transition);
+}
+
+.prim-link .active {
+  color: var(--secondary-color);
+  border-bottom: var(--border-gold);
+}
+
+.secondary-cta--white:hover {
+  background: var(--bg-secondary--color);
+  transition: var(--transition);
+}
+
+.social-media--title {
+  display: none;
+}
+
+.social-links--nav {
+  display: none;
+}
+
+/* ###################################################### */
+/* ################### MEDIA QUERIES ###################  */
+/* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- NAVIGATION MEDIA QUERIES (max-width: 800px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+@media screen and (max-width: 800px) {
+  .nav-wrapper {
+    display: block;
+  }
+
+  .nav-toggle {
+    display: flex;
+    font-size: var(--regular-size);
+    color: var(--primary-color);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+
+  .open-menu {
+    display: block;
+    background-image: url(/assets/icons/icons-gold/mobile_menu.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 3em;
+    height: 3em;
+  }
+  .close-menu {
+    display: block;
+    background-image: url(/assets/icons/icons-gold/mobile_menu-close.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 3em;
+    height: 3em;
+    position: relative;
+  }
+
+  .nav-toggle:hover {
+    transform: rotate(180deg);
+  }
+  .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--medium-gap);
+    height: 0;
+    overflow: hidden;
+  }
+
+  .show-links {
+    height: 100vh;
+  }
+  .links a {
+    font-size: 1.2rem;
+  }
+
+  .primary-nav {
+    flex-direction: column;
+    gap: var(--medium-gap);
+  }
+  .secondary-nav {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .social-links--nav {
+    display: flex;
+    /* width: 8em; */
+    gap: var(--regular-gap);
+    padding: var(--no-padding);
+    margin: var(--no-margin);
+  }
+
+  .social-media--title {
+    display: block;
+    color: var(--active-color);
+    font-weight: var(--regular);
+    margin: 6em 0 1.5em;
+  }
+}

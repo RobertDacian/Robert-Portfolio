@@ -1,0 +1,206 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################ GRID GLOBAL STYLES #################  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ====================================================== */
+/* =================== Grid Classes ====================  */
+/* ====================================================== */
+
+/*
+GRID
+----
+  - grid
+
+TWO COL GRID
+------------
+  - two-col-grid-center--center-center
+  - two-col-grid-center--center-start
+  - two-col-grid-start--center-center
+  - two-col-grid-start--center-start
+
+THREE COL GRID
+--------------
+  - three-col-grid-center--center-center
+  - three-col-grid-center--center-start
+  - three-col-grid-start--center-center
+  - three-col-grid-start--center-start
+
+FOUR COL GRID
+-------------
+  - four-col-grid-center--center-center
+  - four-col-grid-center--center-start
+  - four-col-grid-start--center-center
+  - four-col-grid-start--center-start
+ */
+
+/* ###################################################### */
+/* ################## DESKTOP STYLES ###################  */
+/* ###################################################### */
+
+/* GRID */
+.grid {
+  display: grid;
+}
+
+/* TWO COL GRID */
+.two-col-grid-center--center-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.two-col-grid-center--center-start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.two-col-grid-start--center-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.two-col-grid-start--center-start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+/* THREE COL GRID */
+.three-col-grid-center--center-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.three-col-grid-center--center-start {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.three-col-grid-start--center-center {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.three-col-grid-start--center-start {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+/* FOUR COL GRID */
+.four-col-grid-center--center-center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.four-col-grid-center--center-start {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.four-col-grid-start--center-center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+.four-col-grid-start--center-start {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
+/* ###################################################### */
+/* ############### MEDIA QUERIES  STYLES ###############  */
+/* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- GRID MEDIA QUERIES (max-width: 900px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 900px) {
+  .four-col-grid-center--center-center {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- GRID MEDIA QUERIES (max-width: 640px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 640px) {
+  .four-col-grid-center--center-center {
+    grid-template-columns: 1fr;
+  }
+}

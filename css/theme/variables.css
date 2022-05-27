@@ -1,0 +1,85 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ############## GLOBAL VARIABLES STYLES ##############  */
+/* ###################################################### */
+/* ###################################################### */
+
+html {
+  /* ======================================== */
+  /* ===== Colors, Shadows and Borders ====== */
+  /* ======================================== */
+
+  /* Colors */
+  --primary-color: #2b2f3a;
+  --secondary-color: #eac7a1;
+  --light--color: #f5f7fa;
+
+  /* Font Colors */
+  --dark-text: #404658;
+  --light-text: #f5f7fa;
+  --active-color: #eac7a1;
+  --link-color: #2f4ea7;
+
+  /* Backgrounds */
+  --bg-primary--color: #2b2f3a;
+  --bg-secondary--color: #eac7a1;
+  --bg-light--color: #f5f7fa;
+
+  /* Shadows */
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  /* Borders */
+  --border-gold: 1px solid var(--secondary-color);
+  --border-dark: 1px solid var(--primary-color);
+  --border-light: 1px solid var(--light--color);
+
+  /* ======================================================= */
+  /* ========== Fonts Sizes, Weights, and Heights ========== */
+  /* ======================================================= */
+
+  /* Font Family */
+  --text-font: "Merriweather", Verdana, Geneva, Tahoma, sans-serif;
+  --headings-font: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+  --logo-font: "Grape Nuts", Verdana, Geneva, Tahoma, sans-serif;
+
+  /* Font Sizes */
+  --regular-size: 1rem;
+  --small-size: 0.9rem;
+
+  /* Font Weight */
+  --light: 300;
+  --regular: 400;
+  --semi-bold: 600;
+  --bold-merriweather-bold: 700;
+
+  /* ======================================== */
+  /* ======= Margin, Padding, and Gap ======= */
+  /* ======================================== */
+  /* Desktop Padding */
+  --no-gap: 0;
+  --small-gap: 1em;
+  --regular-gap: 1.5em;
+  --medium-gap: 3em;
+  --large-gap: 6em;
+  --no-padding: 0;
+  --container-padding: 0 1.5em;
+  --desktop-section-padding: 6em 0;
+  --primary-cta-padding: 1.2em 3em;
+  --secondary-cta--padding: 0.8em 2em;
+  --card-padding: 2em 0;
+
+  /* Media Queries Padding */
+  --mobile-section-padding: 3em 0;
+
+  /* Margin */
+  --no-margin: 0;
+  --primary-cta--margin: 1.5em 0 0;
+  --secondary-cta--margin: 1.2em 0 0;
+  --card-link--margin: 0 0 1em;
+
+  /* ======================================== */
+  /* ============ Transitions =============== */
+  /* ======================================== */
+  --transition: all 0.2s linear;
+}

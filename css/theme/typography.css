@@ -1,0 +1,164 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ############## GLOBAL TYPOGRAPHY STYLES #############  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ###################################################### */
+/* ###################### DESKTOP ######################  */
+/* ###################################################### */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings-font);
+  font-weight: var(--semi-bold);
+  color: var(--dark-text);
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2em;
+  margin: 0 0 1.2rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.3em;
+  margin: 0 0 1.2rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.3em;
+  margin: 0 0 1.2rem 0;
+}
+
+h4 {
+  font-size: 1.6rem;
+  line-height: 1.3em;
+  margin: 0 0 1.2rem 0;
+}
+
+.h4-light {
+  font-family: var(--headings-font);
+  color: var(--dark-text);
+  font-weight: var(--semi-bold);
+  font-size: 1.6rem;
+  line-height: 1.3em;
+  margin: 0 0 1.2rem 0;
+}
+
+h5 {
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  margin: 0 0 1.2rem 0;
+}
+.h5-light {
+  font-family: var(--headings-font);
+  color: var(--dark-text);
+  font-weight: var(--semi-bold);
+  font-size: 1.4rem;
+  line-height: 1.3em;
+  margin: 0 0 1.2rem 0;
+}
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin: 0 0 1.2rem 0;
+}
+
+.h6-light {
+  font-family: var(--headings-font);
+  color: var(--dark-text);
+  font-weight: var(--regular);
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin: 0 0 1.2rem 0;
+}
+
+.h6-bold {
+  font-family: var(--headings-font);
+  color: var(--dark-text);
+  font-weight: var(--semi-bold);
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin: 0 0 1.2rem 0;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+.p-bold-dark {
+  font-size: var(--regular-size);
+  font-family: var(--text-font);
+  color: var(--dark-text);
+  font-weight: var(--semi-bold);
+  line-height: 1.5rem;
+}
+
+.small-paragraph-dark {
+  font-family: var(--headings-font);
+  font-size: var(--small-size);
+  color: var(--dark-text);
+  font-weight: var(--regular);
+  line-height: 1.5rem;
+  margin: 1em 0;
+}
+
+.small-paragraph-light {
+  font-family: var(--headings-font);
+  font-size: var(--small-size);
+  color: var(--light-text);
+  font-weight: var(--regular);
+  line-height: 1.5rem;
+  margin: 1em 0;
+}
+
+/* ###################################################### */
+/* ################### MEDIA QUERIES ###################  */
+/* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------------ TYPOGRAPHY STYLES (max-width: 800px) ----------->>> */
+/* <<<------------------------------------------------------------->>> */
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.875em;
+  }
+
+  h3 {
+    font-size: 1.563em;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  .h4-light {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.15rem;
+  }
+  .h5-light {
+    font-size: 1.15rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  .h6-light {
+    font-size: 1rem;
+  }
+}

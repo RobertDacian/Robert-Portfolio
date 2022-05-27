@@ -1,0 +1,14 @@
+.secondary-cta--white {
+  display: inline-block;
+  font-family: var(--headings-font);
+  font-size: var(--small-size);
+  font-weight: var(--regular);
+  background-color: var(--bg-light--color);
+  color: var(--dark-text);
+  padding: var(--secondary-cta--padding);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}

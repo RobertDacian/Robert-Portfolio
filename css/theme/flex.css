@@ -1,0 +1,158 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################ FLEX GLOBAL STYLES #################  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ====================================================== */
+/* =================== Flex Classes ====================  */
+/* ====================================================== */
+
+/*   
+FLEX WRAP / NO WRAP
+-------------------
+
+Wrap
+----
+  - flex wrap
+  - f-wrap-center--center
+  - f-wrap-start--center
+  - f-wrap-center--start
+  - f-wrap-col-center--center
+  - f-wrap-col-start--center
+  - f-wrap-col-center--start
+
+No Wrap
+-------
+  - f-nowrap
+  - f-nowrap-center--center
+  - f-nowrap-start--center
+  - f-nowrap-center--start
+  - f-nowrap-col-center--center
+  - f-nowrap-col-start--center
+  - f-nowrap-col-center--start
+  - f-nowrap-center--space-between 
+  - f-nowrap-center--flex-end
+ */
+
+/* Flex Wrap Styles */
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-wrap-center--center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-wrap-start--center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+}
+
+.f-wrap-center--start {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.f-wrap-col-center--center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-wrap-col-start--center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.f-wrap-col-center--start {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+/* Flex No Wrap Styles */
+
+.f-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.f-nowrap-center--center {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-nowrap-start--center {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+  justify-content: center;
+}
+
+.f-nowrap-center--start {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.f-nowrap-col-center--center {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-nowrap-col-start--center {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.f-nowrap-col-center--start {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.f-nowrap-center--space-between {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-nowrap-center--flex-end {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
