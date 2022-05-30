@@ -58,11 +58,12 @@ section {
   overflow: hidden;
 }
 
-.nav-container {
+.wrapper {
   position: relative;
   max-width: 1200px;
   width: 100%;
-  padding: var(--no-padding);
+  height: auto;
+  padding: var(--wrapper-padding);
   margin: 0 auto;
   overflow: hidden;
 }
@@ -133,6 +134,10 @@ a:active {
   /* ==== Container Global Styles (max-width: 800px) =====  */
   /* ====================================================== */
   .container {
+    width: 100vw;
+  }
+
+  .wrapper {
     width: 100vw;
   }
 }

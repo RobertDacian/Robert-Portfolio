@@ -10,18 +10,20 @@ html {
   /* ======================================== */
 
   /* Colors */
-  --primary-color: #2b2f3a;
+  --primary-color: #3a4660;
   --secondary-color: #eac7a1;
   --light--color: #f5f7fa;
 
   /* Font Colors */
-  --dark-text: #404658;
+  --dark-text: #58647e;
   --light-text: #f5f7fa;
   --active-color: #eac7a1;
-  --link-color: #2f4ea7;
+  --link-color: #627ae2;
+  --colored-text: #eba488;
+  /* --link-color: #eba488; */
 
   /* Backgrounds */
-  --bg-primary--color: #2b2f3a;
+  --bg-primary--color: #3a4660;
   --bg-secondary--color: #eac7a1;
   --bg-light--color: #f5f7fa;
 
@@ -56,27 +58,42 @@ html {
   /* ======================================== */
   /* ======= Margin, Padding, and Gap ======= */
   /* ======================================== */
+
   /* Desktop Padding */
+  --no-padding: 0;
+  --primary-cta-padding: 1.2em 3em;
+  --secondary-cta--padding: 0.8em 2em;
+  --card-padding: 2em 0;
+  --desktop-section-padding: 6em 0;
+  --container-padding: 0 1.5em;
+  --wrapper-padding: 1.5em;
+  --label-padding: 1em 2em;
+  --padding-top: 3em 0 0;
+  --padding-bottom: 0 0 3em;
+  --small-padding: 1.5em 0;
+  --medium-padding: 3em 0;
+  --large-padding: 6em 0;
+
+  /* Desktop Gap */
   --no-gap: 0;
   --small-gap: 1em;
   --regular-gap: 1.5em;
   --medium-gap: 3em;
   --large-gap: 6em;
-  --no-padding: 0;
-  --container-padding: 0 1.5em;
-  --desktop-section-padding: 6em 0;
-  --primary-cta-padding: 1.2em 3em;
-  --secondary-cta--padding: 0.8em 2em;
-  --card-padding: 2em 0;
 
   /* Media Queries Padding */
   --mobile-section-padding: 3em 0;
 
-  /* Margin */
+  /* Desktop Margin */
   --no-margin: 0;
   --primary-cta--margin: 1.5em 0 0;
   --secondary-cta--margin: 1.2em 0 0;
   --card-link--margin: 0 0 1em;
+  --margin-top: 3em 0 0 0;
+  --margin-bottom: 0 0 3em;
+  --small-margin: 1.5em 0 0;
+  --medium-margin: 3em 0 0;
+  --large-margin: 6em 0 0;
 
   /* ======================================== */
   /* ============ Transitions =============== */

@@ -1,0 +1,302 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################# HOME PAGE STYLES ##################  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ###################################################### */
+/* ############  HOME PAGE DESKTOP STYLES ##############  */
+/* ###################################################### */
+
+.hero-home {
+  background: var(--bg-primary--color);
+  overflow: hidden;
+}
+
+.hero-home-intro .skills-mobile {
+  display: none;
+}
+
+.hero-home-intro {
+  position: relative;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.hero-photo {
+  position: relative;
+  z-index: 2;
+  width: 28em;
+  height: 28em;
+  border-radius: 50%;
+}
+
+.label-absolute {
+  position: absolute;
+  z-index: 3;
+}
+
+.label-one {
+  left: 12%;
+  top: 4%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.label-two {
+  left: 2%;
+  top: 43%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.label-three {
+  left: 12%;
+  bottom: 4%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.label-four {
+  top: 4%;
+  right: 12%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+.label-five {
+  top: 43%;
+  right: 2%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.label-six {
+  right: 12%;
+  bottom: 4%;
+  height: 12%;
+  width: 14em;
+  padding: var(--label-padding);
+  background-image: url("/assets/images/label-yellow-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-home-angle {
+  position: absolute;
+  left: -10vw;
+  bottom: -55vw;
+  z-index: 1;
+  width: 130vw;
+  height: 82vw;
+  margin: 0 auto;
+  background-color: var(--bg-light--color);
+  transform: translate(0px, 10vw) rotate(-13deg);
+}
+
+.hero-home-content {
+  position: relative;
+  padding: var(--large-padding);
+  background-color: var(--bg-light--color);
+}
+
+.hero-info {
+  position: relative;
+  z-index: 3;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ###################################################### */
+/* ############## HOME PAGE MEDIA QUERIES ##############  */
+/* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- NAVIGATION MEDIA QUERIES (mai-width: 1440px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (min-width: 1441px) {
+  .hero-home-angle {
+    bottom: -60vw;
+    width: 130vw;
+    height: 82vw;
+    transform: translate(0px, 10vw) rotate(-12deg);
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- NAVIGATION MEDIA QUERIES (max-width: 1024px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+@media screen and (max-width: 1024px) {
+  .hero-photo {
+    width: 20em;
+    height: 20em;
+  }
+
+  .label-one {
+    left: 10%;
+    top: 4%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .label-two {
+    left: 5%;
+    top: 41%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .label-three {
+    left: 10%;
+    bottom: 4%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .label-four {
+    top: 4%;
+    right: 10%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .label-five {
+    top: 41%;
+    right: 5%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .label-six {
+    right: 10%;
+    bottom: 4%;
+    height: 18%;
+    width: 12em;
+  }
+
+  .hero-home-angle {
+    bottom: -70vw;
+    width: 130vw;
+    height: 100vw;
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- NAVIGATION MEDIA QUERIES (max-width: 800px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 800px) {
+  .labels-content {
+    width: 100%;
+  }
+
+  .labels-content > * {
+    width: 100%;
+    gap: 1.5em;
+  }
+  .hero-photo {
+    width: 20em;
+    height: 20em;
+  }
+  .labels-content-group-one > * {
+    width: 47%;
+    margin: var(--medium-margin);
+    padding: var(--small-padding);
+    position: static;
+  }
+
+  .labels-content-group-two > * {
+    width: 47%;
+    margin: var(--medium-margin);
+    padding: var(--small-padding);
+    position: static;
+  }
+
+  .labels-content-group-three > * {
+    width: 47%;
+    margin: var(--medium-margin);
+    padding: var(--small-padding);
+    position: static;
+  }
+
+  .hero-home-angle {
+    bottom: -60vw;
+    width: 130vw;
+    height: 100vw;
+  }
+
+  .hero-home-content {
+    padding: var(--medium-padding);
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- NAVIGATION MEDIA QUERIES (max-width: 640px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 640px) {
+  .hero-photo {
+    width: 15em;
+    height: 15em;
+  }
+  .labels-content > * {
+    gap: var(--no-gap);
+  }
+  .labels-content-group-one > * {
+    width: 100%;
+    margin: var(--margin-top);
+  }
+
+  .labels-content-group-two > * {
+    width: 100%;
+    margin: var(--margin-top);
+  }
+
+  .labels-content-group-three > * {
+    width: 100%;
+    margin: 3em 0 0 0;
+  }
+
+  .hero-home-angle {
+    bottom: -300vw;
+    width: 300vw;
+    height: 430vw;
+  }
+
+  .hero-home-content {
+    padding: var(--medium-padding);
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+}

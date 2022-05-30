@@ -1,5 +1,6 @@
 .secondary-cta--white {
   display: inline-block;
+  border-radius: 100px;
   font-family: var(--headings-font);
   font-size: var(--small-size);
   font-weight: var(--regular);

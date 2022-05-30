@@ -16,7 +16,7 @@ h5,
 h6 {
   font-family: var(--headings-font);
   font-weight: var(--semi-bold);
-  color: var(--dark-text);
+  color: var(--primary-color);
 }
 
 h1 {
@@ -45,7 +45,7 @@ h4 {
 
 .h4-light {
   font-family: var(--headings-font);
-  color: var(--dark-text);
+  color: var(--primary-color);
   font-weight: var(--semi-bold);
   font-size: 1.6rem;
   line-height: 1.3em;
@@ -59,7 +59,7 @@ h5 {
 }
 .h5-light {
   font-family: var(--headings-font);
-  color: var(--dark-text);
+  color: var(--primary-color);
   font-weight: var(--semi-bold);
   font-size: 1.4rem;
   line-height: 1.3em;
@@ -74,25 +74,23 @@ h6 {
 
 .h6-light {
   font-family: var(--headings-font);
-  color: var(--dark-text);
+  color: var(--light-text);
   font-weight: var(--regular);
   font-size: 1.2rem;
   line-height: 1.5em;
   margin: 0 0 1.2rem 0;
 }
 
-.h6-bold {
+.h6-regular {
   font-family: var(--headings-font);
-  color: var(--dark-text);
-  font-weight: var(--semi-bold);
+  color: var(--primary-color);
+  font-weight: var(--regular);
   font-size: 1.2rem;
   line-height: 1.5em;
-  margin: 0 0 1.2rem 0;
+  margin: var(--no-margin);
+  text-align: center;
 }
 
-p {
-  margin: 0 0 1rem 0;
-}
 .p-bold-dark {
   font-size: var(--regular-size);
   font-family: var(--text-font);
@@ -117,6 +115,15 @@ p {
   font-weight: var(--regular);
   line-height: 1.5rem;
   margin: 1em 0;
+}
+
+.colored-text {
+  color: var(--colored-text);
+}
+
+.light-text {
+  margin: 0 0 1rem 0;
+  color: var(--light-text);
 }
 
 /* ###################################################### */
