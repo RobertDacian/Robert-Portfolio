@@ -13,9 +13,9 @@
   overflow: hidden;
 }
 
-.hero-home-intro .skills-mobile {
+/* .hero-home-intro .skills-mobile {
   display: none;
-}
+} */
 
 .hero-home-intro {
   position: relative;
@@ -215,36 +215,37 @@
 /* <<<------------------------------------------------------------->>> */
 
 @media screen and (max-width: 800px) {
-  .labels-content {
-    width: 100%;
-  }
-
   .labels-content > * {
     width: 100%;
-    gap: 1.5em;
+    gap: var(--small-gap);
   }
+  .labels-content {
+    width: 100%;
+
+    padding: var(--no-padding);
+    gap: var(--small-gap);
+  }
+
   .hero-photo {
     width: 20em;
     height: 20em;
   }
   .labels-content-group-one > * {
     width: 47%;
-    margin: var(--medium-margin);
-    padding: var(--small-padding);
+    margin: var(--small-margin);
+    padding: var(--medium-padding);
     position: static;
   }
 
   .labels-content-group-two > * {
     width: 47%;
-    margin: var(--medium-margin);
-    padding: var(--small-padding);
+    padding: var(--medium-padding);
     position: static;
   }
 
   .labels-content-group-three > * {
     width: 47%;
-    margin: var(--medium-margin);
-    padding: var(--small-padding);
+    padding: var(--medium-padding);
     position: static;
   }
 
@@ -264,39 +265,42 @@
 /* <<<------------------------------------------------------------->>> */
 
 @media screen and (max-width: 640px) {
+  .labels-content {
+    margin: var(--no-margin);
+    gap: var(--small-gap);
+    padding: var(--no-padding);
+  }
+
+  .label-absolute {
+    margin: var(--no-margin);
+    padding: var(--very-small-padding);
+    gap: var(--small-gap);
+  }
+
+  .label-absolute .h6-regular {
+    font-size: var(--small-size);
+  }
+
+  .labels-content-group-one {
+    gap: var(--small-gap);
+  }
+
+  .labels-content-group-two {
+    gap: var(--small-gap);
+  }
+
+  .labels-content-group-three {
+    gap: var(--small-gap);
+  }
+
   .hero-photo {
     width: 15em;
     height: 15em;
   }
-  .labels-content > * {
-    gap: var(--no-gap);
-  }
-  .labels-content-group-one > * {
-    width: 100%;
-    margin: var(--margin-top);
-  }
-
-  .labels-content-group-two > * {
-    width: 100%;
-    margin: var(--margin-top);
-  }
-
-  .labels-content-group-three > * {
-    width: 100%;
-    margin: 3em 0 0 0;
-  }
 
   .hero-home-angle {
-    bottom: -300vw;
-    width: 300vw;
-    height: 430vw;
-  }
-
-  .hero-home-content {
-    padding: var(--medium-padding);
-  }
-
-  .hero-info {
-    width: 100%;
+    bottom: -270vw;
+    width: 500vw;
+    height: 360vw;
   }
 }
