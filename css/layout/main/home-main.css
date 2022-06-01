@@ -189,7 +189,7 @@
   grid-column: 4 / 7;
   grid-row: 1;
   margin-top: 4.5em;
-  gap: var(--regular-gap);
+  gap: var(--small-gap);
 }
 
 .project-tag {
@@ -365,12 +365,13 @@
   .project-card--large-img {
     grid-column: 1 / 7;
     grid-row: 1;
-    height: 400px;
+    height: 380px;
   }
 
   .project-card--large-table {
-    grid-column: 1 / 4;
+    grid-column: 1 / 7;
     grid-row: 2;
+    margin-bottom: var(--no-margin);
   }
 
   .table-info,
@@ -379,21 +380,21 @@
   }
 
   .project-card--large-tags {
-    grid-column: 4 / 7;
-    grid-row: 2;
+    grid-column: 1 / 7;
+    grid-row: 3;
     margin-top: var(--no-margin);
   }
 
   .project-card--large-info-description {
     grid-column: 1 / 6;
-    grid-row: 3;
+    grid-row: 4;
     margin-top: var(--no-margin);
   }
 
   .project-card--large-cta {
     margin-top: var(--no-margin);
     grid-column: 1 / 4;
-    grid-row: 4;
+    grid-row: 5;
   }
 }
 
@@ -444,30 +445,6 @@
 }
 
 /* <<<------------------------------------------------------------->>> */
-/* <<<------- HERO SECTION MEDIA QUERIES (max-width: 426px) ------->>> */
-/* <<<------------------------------------------------------------->>> */
-
-@media screen and (max-width: 425px) {
-  .hero-home-angle {
-    bottom: -270vw;
-    width: 500vw;
-    height: 415vw;
-  }
-}
-
-/* <<<------------------------------------------------------------->>> */
-/* <<<------- HERO SECTION MEDIA QUERIES (max-width: 321px) ------->>> */
-/* <<<------------------------------------------------------------->>> */
-
-@media screen and (max-width: 320px) {
-  .hero-home-angle {
-    bottom: -290vw;
-    width: 540vw;
-    height: 465vw;
-  }
-}
-
-/* <<<------------------------------------------------------------->>> */
 /* <<<------------ PROJECTS SECTION (max-width: 640px) ----------->>> */
 /* <<<------------------------------------------------------------->>> */
 
@@ -475,7 +452,10 @@
   .project-card--large-img {
     grid-column: 1 / 7;
     grid-row: 1;
-    height: 250px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
   }
 
   .project-card--large-table {
@@ -498,5 +478,50 @@
   .project-card--large-cta {
     grid-column: 1 / 7;
     grid-row: 5;
+    gap: var(--regular-gap);
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------- HERO SECTION MEDIA QUERIES (max-width: 425px) ------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 425px) {
+  .hero-home-angle {
+    bottom: -270vw;
+    width: 500vw;
+    height: 415vw;
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------------ PROJECTS SECTION (max-width: 425px) ----------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 425px) {
+  .project-card--large-img {
+    height: 170px;
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------- HERO SECTION MEDIA QUERIES (max-width: 321px) ------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 320px) {
+  .hero-home-angle {
+    bottom: -290vw;
+    width: 540vw;
+    height: 465vw;
+  }
+}
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------------ PROJECTS SECTION (max-width: 321px) ----------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 320px) {
+  .project-card--large-img {
+    height: 140px;
   }
 }

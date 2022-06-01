@@ -56,3 +56,14 @@
     margin-bottom: var(--medium-margin-bottom);
   }
 }
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<------------ PROJECTS SECTION (max-width: 640px) ----------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+/* Project Card Large */
+@media screen and (max-width: 640px) {
+  .project-card--large {
+    padding: var(--small-padding);
+  }
+}
