@@ -91,6 +91,10 @@ h6 {
   text-align: center;
 }
 
+.p--light-text {
+  color: var(--light-text);
+}
+
 .p-bold-dark {
   font-size: var(--regular-size);
   font-family: var(--text-font);
@@ -99,31 +103,51 @@ h6 {
   line-height: 1.5rem;
 }
 
-.small-paragraph-dark {
-  font-family: var(--headings-font);
-  font-size: var(--small-size);
-  color: var(--dark-text);
-  font-weight: var(--regular);
-  line-height: 1.5rem;
-  margin: 1em 0;
-}
-
 .small-paragraph-light {
   font-family: var(--headings-font);
   font-size: var(--small-size);
   color: var(--light-text);
   font-weight: var(--regular);
   line-height: 1.5rem;
-  margin: 1em 0;
+  margin: var(--margin-up-down-small);
 }
 
-.colored-text {
-  color: var(--colored-text);
+.small-paragraph-dark {
+  font-family: var(--headings-font);
+  font-size: var(--small-size);
+  color: var(--dark-text);
+  font-weight: var(--regular);
+  line-height: 1.5rem;
+  margin: var(--margin-up-down-small);
 }
 
-.light-text {
-  margin: 0 0 1rem 0;
-  color: var(--light-text);
+.small-paragraph-bold {
+  font-family: var(--headings-font);
+  font-size: var(--small-size);
+  color: var(--dark-text);
+  font-weight: var(--semi-bold);
+  line-height: 1.5rem;
+  margin: var(--margin-up-down-small);
+}
+
+.small-paragraph-uppercase {
+  font-family: var(--headings-font);
+  font-size: var(--smaller-size);
+  color: var(--dark-text);
+  font-weight: var(--regular);
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  margin: var(--margin-up-down-small);
+}
+
+.span-text-regular {
+  color: var(--span-text);
+  font-weight: var(--light);
+}
+
+.span-text-bold {
+  color: var(--span-text);
+  font-weight: var(--semi-bold);
 }
 
 /* ###################################################### */

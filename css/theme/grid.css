@@ -89,6 +89,17 @@ FOUR COL GRID
   row-gap: 1.5em;
 }
 
+/* .three-col-grid-start--center-start-uneven {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+} */
+
 /* THREE COL GRID */
 .three-col-grid-center--center-center {
   display: grid;
@@ -179,9 +190,31 @@ FOUR COL GRID
   row-gap: 1.5em;
 }
 
+.six-col-grid-start--center-start {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+}
+
 /* ###################################################### */
 /* ############### MEDIA QUERIES  STYLES ###############  */
 /* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- GRID MEDIA QUERIES (max-width: 1024px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+@media screen and (max-width: 1024px) {
+  .three-col-grid-start--center-start {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
 
 /* <<<------------------------------------------------------------->>> */
 /* <<<-------- GRID MEDIA QUERIES (max-width: 900px) -------->>> */

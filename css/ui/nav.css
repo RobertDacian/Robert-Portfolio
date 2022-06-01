@@ -8,14 +8,6 @@
 /* ###################### DESKTOP ######################  */
 /* ###################################################### */
 
-/* background: #eba488; */
-/* background: #845007; */
-/* background: #3a4660; */
-/* background: #6c67a5; */
-/* background: #a68bd1; */
-/* background: #845007; */
-/* background: #627ae2; */
-
 #mainNavigation {
   background: var(--bg-primary--color);
   z-index: 1000;

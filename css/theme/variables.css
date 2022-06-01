@@ -6,26 +6,29 @@
 
 html {
   /* ======================================== */
-  /* ===== Colors, Shadows and Borders ====== */
+  /* ===== COLORS, SHADOWS AND BORDERS ====== */
   /* ======================================== */
 
-  /* Colors */
+  /* Global Colors */
   --primary-color: #3a4660;
   --secondary-color: #eac7a1;
   --light--color: #f5f7fa;
+  --border-dark-color: #d2d2d2;
 
   /* Font Colors */
   --dark-text: #58647e;
   --light-text: #f5f7fa;
   --active-color: #eac7a1;
-  --link-color: #627ae2;
-  --colored-text: #eba488;
-  /* --link-color: #eba488; */
+  /* --link-color: #627ae2; */
+  --link-color: #eba488;
+  --span-text: #eba488;
 
   /* Backgrounds */
   --bg-primary--color: #3a4660;
   --bg-secondary--color: #eac7a1;
   --bg-light--color: #f5f7fa;
+  --bg-white--color: #ffffff;
+  --tag-background: #f9f2eb;
 
   /* Shadows */
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -33,11 +36,11 @@ html {
 
   /* Borders */
   --border-gold: 1px solid var(--secondary-color);
-  --border-dark: 1px solid var(--primary-color);
-  --border-light: 1px solid var(--light--color);
+  --border-dark: 1px solid var(--border-dark-color);
+  --border-light: 1px solid var(--border-light-color);
 
   /* ======================================================= */
-  /* ========== Fonts Sizes, Weights, and Heights ========== */
+  /* =========== FONT SIZES, WEIGHTS, AND HEIGHTS ========== */
   /* ======================================================= */
 
   /* Font Family */
@@ -48,6 +51,7 @@ html {
   /* Font Sizes */
   --regular-size: 1rem;
   --small-size: 0.9rem;
+  --smaller-size: 0.7rem;
 
   /* Font Weight */
   --light: 300;
@@ -56,48 +60,107 @@ html {
   --bold-merriweather-bold: 700;
 
   /* ======================================== */
-  /* ======= Margin, Padding, and Gap ======= */
+  /* ================= GAPS ================= */
   /* ======================================== */
 
-  /* Desktop Padding */
-  --no-padding: 0;
-  --primary-cta-padding: 1.2em 3em;
-  --secondary-cta--padding: 0.8em 2em;
-  --card-padding: 2em 0;
-  --desktop-section-padding: 6em 0;
-  --container-padding: 0 1.5em;
-  --wrapper-padding: 1.5em;
-  --label-padding: 1em 2em;
-  --padding-top: 3em 0 0;
-  --padding-bottom: 0 0 3em;
-  --very-small-padding: 1em 0;
-  --small-padding: 1.5em 0;
-  --medium-padding: 3em 0;
-  --large-padding: 6em 0;
-
-  /* Desktop Gap */
   --no-gap: 0;
+  --smaller-gap: 0.5em;
   --small-gap: 1em;
   --regular-gap: 1.5em;
   --medium-gap: 3em;
   --large-gap: 6em;
 
-  /* Media Queries Padding */
+  /* ======================================== */
+  /* =============== PADDINGS =============== */
+  /* ======================================== */
+
+  /* Desktop Section Padding */
+  --desktop-section-padding: 6em 0;
+
+  /* Mobile Section Padding */
   --mobile-section-padding: 3em 0;
 
-  /* Desktop Margin */
-  --no-margin: 0;
-  --primary-cta--margin: 1.5em 0 0;
-  --secondary-cta--margin: 1.2em 0 0;
-  --card-link--margin: 0 0 1em;
-  --margin-top: 3em 0 0 0;
-  --margin-bottom: 0 0 3em;
-  --small-margin: 1.5em 0 0;
-  --medium-margin: 3em 0 0;
-  --large-margin: 6em 0 0;
+  /* Container And Wrapper Padding */
+  --container-padding: 0 1.5em;
+  --wrapper-padding: 1.5em;
+
+  /* No Padding */
+  --no-padding: 0;
+
+  /* Padding All Around */
+  --small-padding: 1em;
+  --regular-padding: 1.5em;
+  --medium-padding: 3em;
+  --large-padding: 6em;
+
+  /* Padding Up/Down */
+  --padding-up-down-small: 1em 0;
+  --padding-up-down-regular: 1.5em 0;
+  --padding-up-down-medium: 3em 0;
+  --padding-up-down-large: 6em 0;
+
+  /* Padding Top */
+  --small-padding-top: 1em;
+  --regular-padding-top: 1.5em;
+  --medium-padding-top: 3em;
+  --large-padding-top: 6em;
+
+  /* Padding Bottom */
+  --small-padding-bottom: 1em;
+  --regular-padding-bottom: 1.5em;
+  --medium-padding-bottom: 3em;
+  --large-padding-bottom: 6em;
+
+  /* CTA Padding */
+  --primary-cta-padding: 1.2em 3em;
+  --secondary-cta--padding: 0.8em 2em;
+
+  /* Cards Padding */
+  --card-padding: 2em;
+
+  /* Labels Padding */
+  --label-padding: 1em 2em;
 
   /* ======================================== */
-  /* ============ Transitions =============== */
+  /* =============== MARGINS ================ */
+  /* ======================================== */
+  /* No Margin */
+  --no-margin: 0;
+
+  /* Margin All Around */
+  --small-margin: 1em;
+  --regular-margin: 1.5em;
+  --medium-margin: 3em;
+  --large-margin: 6em;
+
+  /* Margin Up/Down */
+  --margin-up-down-small: 1em 0;
+  --margin-up-down-regular: 1.5em 0;
+  --margin-up-down-medium: 3em 0;
+  --margin-up-down-large: 6em 0;
+
+  /* Margin Top */
+  --small-margin-top: 1em;
+  --regular-margin-top: 1.5em;
+  --medium-margin-top: 3em;
+  --large-margin-top: 6em;
+
+  /* Margin Bottom */
+  --small-margin-bottom: 1em;
+  --regular-margin-bottom: 1.5em;
+  --medium-margin-bottom: 3em;
+  --large-margin-bottom: 6em;
+
+  /* CTA Margins */
+  --primary-cta--margin: 1.5em 0 0;
+  --secondary-cta--margin: 1.2em 0 0;
+
+  /* Cards Margins */
+  --card-link--margin: 0 0 1em;
+  --card-margin: 2em;
+
+  /* ======================================== */
+  /* ============ TRANSITIONS =============== */
   /* ======================================== */
   --transition: all 0.2s linear;
 }

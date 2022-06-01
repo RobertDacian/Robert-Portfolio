@@ -150,6 +150,13 @@ No Wrap
   justify-content: space-between;
 }
 
+.f-nowrap-start--space-between {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+  justify-content: space-between;
+}
+
 .f-nowrap-center--flex-end {
   display: flex;
   flex-wrap: nowrap;

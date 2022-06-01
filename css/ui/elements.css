@@ -1,3 +1,14 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################# ELEMENTS STYLES ##################  */
+/* ###################################################### */
+/* ###################################################### */
+
+/* ###################################################### */
+/* ############  ELEMENTS DESKTOP STYLES ##############  */
+/* ###################################################### */
+
+/* Buttons */
 .secondary-cta--white {
   display: inline-block;
   border-radius: 100px;
@@ -12,4 +23,36 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
+}
+
+/* Headings and Subheadings Title Elements */
+
+.h1-title-wrapper {
+  margin-bottom: var(--large-margin-bottom);
+  text-align: center;
+}
+
+/* Cards */
+.project-card--large {
+  background-color: var(--bg-white--color);
+  box-shadow: var(--dark-shadow);
+  padding: var(--card-padding);
+  margin-bottom: var(--regular-margin-bottom);
+  border-radius: 20px;
+}
+
+/* ###################################################### */
+/* ############## HOME PAGE MEDIA QUERIES ##############  */
+/* ###################################################### */
+
+/* <<<------------------------------------------------------------->>> */
+/* <<<-------- ELEMENTS MEDIA QUERIES (mai-width: 800px) -------->>> */
+/* <<<------------------------------------------------------------->>> */
+
+/* Headings and Subheadings Title Elements */
+
+@media screen and (max-width: 800px) {
+  .heading-title {
+    margin-bottom: var(--medium-margin-bottom);
+  }
 }
