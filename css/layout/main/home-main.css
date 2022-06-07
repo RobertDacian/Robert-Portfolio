@@ -147,27 +147,33 @@
 /* <<<----------------- PROJECTS SECTION (desktop) ---------------->>> */
 /* <<<------------------------------------------------------------->>> */
 
+/* .project-card--large-img {
+  grid-column: 1 / 4;
+  grid-row: 1;
+} */
+
 .project-card--large-img {
   grid-column: 1 / 4;
   grid-row: 1;
-
-  /* background-image: url("/assets/images/project-images/rainy-days-img.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 100%; */
+  margin-top: 5em;
 }
 
 .project-card--large-img img {
-  object-fit: contain;
-  height: 320px;
+  object-fit: cover;
+  /* height: 320px; */
 }
 
-.project-card--large-table {
+/* .project-card--large-table {
   grid-column: 4 / 7;
   grid-row: 1;
   width: 100%;
   margin-bottom: var(--regular-margin-bottom);
+} */
+.project-card--large-table {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  /* width: 100%; */
+  /* margin-bottom: 2em; */
 }
 
 .project-card--large-table-cell {
@@ -188,13 +194,12 @@
 .project-card--large-info-description {
   grid-column: 4 / 7;
   grid-row: 1;
-  margin-top: 8.5em;
+  margin-top: 6.5em;
 }
 
 .project-card--large-tags {
   grid-column: 4 / 7;
   grid-row: 1;
-  margin-top: 4.5em;
   gap: var(--small-gap);
 }
 
@@ -216,7 +221,7 @@
 .project-card--large-cta {
   grid-column: 4 / 7;
   grid-row: 1;
-  margin-top: 19em;
+  margin-top: 17em;
   gap: var(--medium-gap);
 }
 
@@ -371,10 +376,7 @@
   .project-card--large-img {
     grid-column: 1 / 7;
     grid-row: 1;
-  }
-
-  .project-card--large-img img {
-    height: 420px;
+    margin-top: var(--no-margin);
   }
 
   .project-card--large-table {
@@ -398,11 +400,13 @@
     grid-column: 1 / 6;
     grid-row: 4;
     margin-top: var(--no-margin);
+    margin-bottom: var(--no-margin);
   }
 
   .project-card--large-cta {
     margin-top: var(--no-margin);
-    grid-column: 1 / 4;
+    padding-top: var(--no-padding);
+    grid-column: 1 / 5;
     grid-row: 5;
   }
 }
@@ -463,10 +467,6 @@
     grid-row: 1;
   }
 
-  .project-card--large-img img {
-    height: 300px;
-  }
-
   .project-card--large-table {
     grid-column: 1 / 7;
     grid-row: 2;
@@ -504,16 +504,6 @@
 }
 
 /* <<<------------------------------------------------------------->>> */
-/* <<<------------ PROJECTS SECTION (max-width: 425px) ----------->>> */
-/* <<<------------------------------------------------------------->>> */
-
-@media screen and (max-width: 425px) {
-  .project-card--large-img img {
-    height: 190px;
-  }
-}
-
-/* <<<------------------------------------------------------------->>> */
 /* <<<------- HERO SECTION MEDIA QUERIES (max-width: 320px) ------->>> */
 /* <<<------------------------------------------------------------->>> */
 
@@ -522,19 +512,5 @@
     bottom: -290vw;
     width: 540vw;
     height: 465vw;
-  }
-}
-
-/* <<<------------------------------------------------------------->>> */
-/* <<<------------ PROJECTS SECTION (max-width: 320px) ----------->>> */
-/* <<<------------------------------------------------------------->>> */
-
-@media screen and (max-width: 320px) {
-  /* .project-card--large-img {
-    height: 140px;
-  } */
-
-  .project-card--large-img img {
-    height: 140px;
   }
 }
