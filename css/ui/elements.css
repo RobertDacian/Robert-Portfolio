@@ -52,7 +52,7 @@
 /* Headings and Subheadings Title Elements */
 
 @media screen and (max-width: 800px) {
-  .heading-title {
+  .h1-title-wrapper {
     margin-bottom: var(--medium-margin-bottom);
   }
 }
