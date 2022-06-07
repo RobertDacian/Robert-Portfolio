@@ -16,7 +16,7 @@
   font-size: var(--small-size);
   font-weight: var(--regular);
   background-color: var(--bg-light--color);
-  color: var(--dark-text);
+  color: var(--heading-color);
   padding: var(--secondary-cta--padding);
   text-transform: uppercase;
   text-align: center;

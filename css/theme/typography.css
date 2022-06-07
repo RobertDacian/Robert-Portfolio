@@ -16,7 +16,7 @@ h5,
 h6 {
   font-family: var(--headings-font);
   font-weight: var(--semi-bold);
-  color: var(--primary-color);
+  color: var(--heading-color);
 }
 
 h1 {
@@ -45,7 +45,7 @@ h4 {
 
 .h4-light {
   font-family: var(--headings-font);
-  color: var(--primary-color);
+  color: var(--heading-color);
   font-weight: var(--semi-bold);
   font-size: 1.6rem;
   line-height: 1.3em;
@@ -59,7 +59,7 @@ h5 {
 }
 .h5-light {
   font-family: var(--headings-font);
-  color: var(--primary-color);
+  color: var(--heading-color);
   font-weight: var(--semi-bold);
   font-size: 1.4rem;
   line-height: 1.3em;
@@ -83,7 +83,7 @@ h6 {
 
 .h6-regular {
   font-family: var(--headings-font);
-  color: var(--primary-color);
+  color: var(--heading-color);
   font-weight: var(--regular);
   font-size: 1.2rem;
   line-height: 1.5em;

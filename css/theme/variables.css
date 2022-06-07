@@ -10,12 +10,14 @@ html {
   /* ======================================== */
 
   /* Global Colors */
-  --primary-color: #3a4660;
+
+  --primary-color: #2b2f3a;
   --secondary-color: #eac7a1;
   --light--color: #f5f7fa;
   --border-dark-color: #d2d2d2;
 
   /* Font Colors */
+  --heading-color: #3a4660;
   --dark-text: #58647e;
   --light-text: #f5f7fa;
   --active-color: #eac7a1;
@@ -24,7 +26,7 @@ html {
   --span-text: #eba488;
 
   /* Backgrounds */
-  --bg-primary--color: #3a4660;
+  --bg-primary--color: #2b2f3a;
   --bg-secondary--color: #eac7a1;
   --bg-light--color: #f5f7fa;
   --bg-white--color: #ffffff;

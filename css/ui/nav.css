@@ -11,13 +11,6 @@
 #mainNavigation {
   background: var(--bg-primary--color);
   z-index: 1000;
-  /* background: #eba488; */
-  /* background: #845007; */
-  /* background: #3a4660; */
-  /* background: #6c67a5; */
-  /* background: #a68bd1; */
-  /* background: #845007; */
-  /* background: #627ae2; */
 }
 
 .nav-wrapper {
@@ -152,7 +145,6 @@
 
   .social-links--nav {
     display: flex;
-    /* width: 8em; */
     gap: var(--regular-gap);
     padding: var(--no-padding);
     margin: var(--no-margin);
