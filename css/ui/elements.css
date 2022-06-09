@@ -8,7 +8,7 @@
 /* ############  ELEMENTS DESKTOP STYLES ##############  */
 /* ###################################################### */
 
-/* Buttons */
+/* BUTTONS */
 .secondary-cta--white {
   display: inline-block;
   border-radius: 100px;
@@ -25,14 +25,15 @@
   cursor: pointer;
 }
 
-/* Headings and Subheadings Title Elements */
+/* HEADINGS AND SUBHEADINGS TITLE WRAPPERS */
 
 .h1-title-wrapper {
   margin-bottom: var(--large-margin-bottom);
   text-align: center;
 }
 
-/* Cards */
+/* CARDS */
+/* Project Card Large */
 .project-card--large {
   background-color: var(--bg-white--color);
   box-shadow: var(--dark-shadow);
@@ -42,14 +43,14 @@
 }
 
 /* ###################################################### */
-/* ############## HOME PAGE MEDIA QUERIES ##############  */
+/* ############## ELEMENTS MEDIA QUERIES ###############  */
 /* ###################################################### */
 
 /* <<<------------------------------------------------------------->>> */
 /* <<<-------- ELEMENTS MEDIA QUERIES (mai-width: 800px) -------->>> */
 /* <<<------------------------------------------------------------->>> */
 
-/* Headings and Subheadings Title Elements */
+/* HEADINGS AND SUBHEADINGS TITLE WRAPPERS */
 
 @media screen and (max-width: 800px) {
   .h1-title-wrapper {
@@ -61,6 +62,7 @@
 /* <<<------------ PROJECTS SECTION (max-width: 640px) ----------->>> */
 /* <<<------------------------------------------------------------->>> */
 
+/* CARDS */
 /* Project Card Large */
 @media screen and (max-width: 640px) {
   .project-card--large {
